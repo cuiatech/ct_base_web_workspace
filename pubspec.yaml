@@ -1,4 +1,4 @@
-name: flut_base_web_cuiatech
+name: flut_base_web_workspace
 description: A new Flutter project.
 publish_to: 'none' 
 version: 1.0.0+1
@@ -9,15 +9,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_modular: 5.0.3
-  mobx: 2.1.3
-  flutter_mobx: 2.0.6+5
-  url_strategy: 0.2.0
+  
+
+dependency_overrides:
+  flut_micro_commons_dependencies:
+    path: ../flut_micro_commons_dependencies
+    # git:
+    #   url: "https://github.com/cuiatech/flut_micro_commons_dependencies.git"
+    #   ref: "master"
+  flut_micro_commons_client_https:
+    path: ../flut_micro_commons_client_https
+    # git:
+    #   url: "https://github.com/cuiatech/flut_micro_commons_client_https.git"
+    #   ref: "master"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
   flutter_lints: 2.0.0
   mobx_codegen: 2.1.1
 
