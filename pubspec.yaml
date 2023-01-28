@@ -14,6 +14,11 @@ dependencies:
     # git:
     #   url: "https://github.com/cuiatech/flut_micro_app_auth.git"
     #   ref: "master"
+  flut_micro_app_dashboard:
+    path: ../flut_micro_app_dashboard
+    # git:
+    #   url: "https://github.com/cuiatech/flut_micro_app_dashboard.git"
+    #   ref: "master"
   
 
 dependency_overrides:
