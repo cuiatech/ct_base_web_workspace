@@ -37,6 +37,11 @@ dependency_overrides:
     # git:
     #   url: "https://github.com/cuiatech/flut_micro_commons_ds.git"
     #   ref: "master"
+  flut_micro_commons_auth:
+    path: ../flut_micro_commons_auth
+    # git:
+    #   url: "https://github.com/cuiatech/flut_micro_commons_auth.git"
+    #   ref: "master"
 
 dev_dependencies:
   flutter_test:
@@ -47,7 +52,6 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/images/
     - assets/langs/
 
   
