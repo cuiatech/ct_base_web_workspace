@@ -1,7 +1,7 @@
 import 'package:flut_micro_commons_dependencies/flut_micro_commons_dependencies.dart';
 
 class LoggedGuard extends RouteGuard {
-  LoggedGuard() : super(redirectTo: '/auth');
+  LoggedGuard() : super(redirectTo: '/auth/');
 
   @override
   Future<bool> canActivate(String path, ModularRoute router) async {

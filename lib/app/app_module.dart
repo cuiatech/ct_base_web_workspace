@@ -13,7 +13,6 @@ class AppModule extends Module {
   final List<Bind> binds = [
     Bind.singleton((i) {
       if (const String.fromEnvironment('ENV') == 'prod') return Env.prod();
-
       return Env.dev();
     })
   ];
