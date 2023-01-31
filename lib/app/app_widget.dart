@@ -23,7 +23,7 @@ class AppWidget extends StatelessWidget {
     ];
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      title: 'Cuia Workspace',
+      title: 'Cuiatech Workspace',
       theme: ThemeData(primarySwatch: Colors.blue),
       routerDelegate: Modular.routerDelegate,
       routeInformationParser: Modular.routeInformationParser,
