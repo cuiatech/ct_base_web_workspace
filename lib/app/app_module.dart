@@ -1,3 +1,5 @@
+// ignore_for_file: depend_on_referenced_packages
+
 import 'package:flut_base_web_workspace/app/modules/guards/logged_guard.dart';
 import 'package:flut_micro_app_dashboard/app/dashboard_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
