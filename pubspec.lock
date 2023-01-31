@@ -134,6 +134,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  flut_micro_app_help_center:
+    dependency: "direct main"
+    description:
+      path: "../flut_micro_app_help_center"
+      relative: true
+    source: path
+    version: "0.0.1"
   flut_micro_commons_auth:
     dependency: "direct overridden"
     description:
