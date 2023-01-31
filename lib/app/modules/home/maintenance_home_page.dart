@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:localization/localization.dart';
 
 class MaintenanceHomePage extends StatelessWidget {
   const MaintenanceHomePage({super.key});
@@ -18,18 +19,18 @@ class MaintenanceHomePage extends StatelessWidget {
             Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
-              children: const [
+              children: [
                 Text(
-                  "Estamos em manutenção!!!",
-                  style: TextStyle(
+                  "maintenance-page-title".i18n(),
+                  style: const TextStyle(
                     fontSize: 40,
                     color: Colors.white,
                   ),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 Text(
-                  "Por favor, aguarde.",
-                  style: TextStyle(
+                  "maintenance-page-subtitle".i18n(),
+                  style: const TextStyle(
                     fontSize: 30,
                     color: Colors.white,
                   ),
