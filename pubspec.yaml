@@ -9,6 +9,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  localization: 2.1.0
   flut_micro_app_auth:
     path: ../flut_micro_app_auth
     # git:
@@ -57,35 +60,4 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/langs/
-
-  
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    - assets/lang/
