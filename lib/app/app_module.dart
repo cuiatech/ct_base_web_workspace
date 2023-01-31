@@ -1,6 +1,4 @@
 import 'package:flut_base_web_workspace/app/modules/guards/logged_guard.dart';
-import 'package:flut_base_web_workspace/app/modules/home/home_module.dart';
-import 'package:flut_base_web_workspace/app/modules/home/maintenance_home_page.dart';
 import 'package:flut_micro_app_dashboard/app/dashboard_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flut_micro_app_auth/flut_micro_app_auth.dart';
