@@ -27,6 +27,11 @@ dependencies:
     # git:
     #   url: "https://github.com/cuiatech/flut_micro_app_help_center.git"
     #   ref: "master"
+  flut_micro_app_marketplace:
+    path: ../flut_micro_app_marketplace
+    # git:
+    #   url: "https://github.com/cuiatech/flut_micro_app_marketplace.git"
+    #   ref: "master"
   
 
 dependency_overrides:

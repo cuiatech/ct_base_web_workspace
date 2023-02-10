@@ -2,6 +2,7 @@
 
 import 'package:flut_base_web_workspace/app/modules/guards/logged_guard.dart';
 import 'package:flut_micro_app_dashboard/app/dashboard_module.dart';
+import 'package:flut_micro_app_marketplace/app/marketplace_module.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flut_micro_app_auth/flut_micro_app_auth.dart';
 import 'package:flut_micro_commons_auth/flut_micro_commons_auth.dart';
@@ -30,7 +31,12 @@ class AppModule extends Module {
   @override
   final List<ModularRoute> routes = [
     // ModuleRoute('/', module: HomeModule()), // maintenance
-    ModuleRoute('/', module: DashboardModule(), guards: [LoggedGuard()]),
     ModuleRoute('/auth', module: AppAuthModule(), guards: [UnloggedGuard()]),
+    ModuleRoute('/', module: DashboardModule(), guards: [LoggedGuard()]),
+    ModuleRoute(
+      '/marketplace',
+      module: MarketplaceModule(),
+      guards: [LoggedGuard()],
+    ),
   ];
 }
