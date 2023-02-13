@@ -9,6 +9,7 @@ import 'package:flut_micro_commons_auth/flut_micro_commons_auth.dart';
 import 'package:flut_micro_commons_client_https/flut_micro_commons_client_https.dart';
 import 'package:flut_micro_commons_shared/shared/utils/env.dart';
 import 'package:flut_micro_commons_ds/flut_micro_commons_ds.dart';
+import 'package:flut_micro_commons_core_app/flut_micro_commons_core_app.dart';
 
 import 'modules/guards/unlogged_guard.dart';
 
@@ -26,6 +27,7 @@ class AppModule extends Module {
     ClientHttpsModule(),
     CuiaDsModule(),
     AuthModule(),
+    CoreAppModule(),
   ];
 
   @override
