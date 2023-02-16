@@ -3,6 +3,7 @@
 import 'package:flut_base_web_workspace/app/modules/guards/logged_guard.dart';
 import 'package:flut_micro_app_dashboard/app/dashboard_module.dart';
 import 'package:flut_micro_app_marketplace/app/marketplace_module.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flut_micro_app_auth/flut_micro_app_auth.dart';
 import 'package:flut_micro_commons_auth/flut_micro_commons_auth.dart';
@@ -10,6 +11,8 @@ import 'package:flut_micro_commons_client_https/flut_micro_commons_client_https.
 import 'package:flut_micro_commons_shared/shared/utils/env.dart';
 import 'package:flut_micro_commons_ds/flut_micro_commons_ds.dart';
 import 'package:flut_micro_commons_core_app/flut_micro_commons_core_app.dart';
+
+import 'package:flut_external_shopping_monitor/flut_external_shopping_monitor.dart';
 
 import 'modules/guards/unlogged_guard.dart';
 
@@ -39,6 +42,20 @@ class AppModule extends Module {
       '/marketplace',
       module: MarketplaceModule(),
       guards: [LoggedGuard()],
+    ),
+
+    ModuleRoute(
+      '/shopping_monitor',
+      module: ShoppingMonitorModule(),
+      guards: [LoggedGuard()],
+    ),
+
+    WildcardRoute(
+      child: (_, __) => const Scaffold(
+        body: Center(
+          child: Text("Router not found!", style: TextStyle(fontSize: 22)),
+        ),
+      ),
     ),
   ];
 }

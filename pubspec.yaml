@@ -65,6 +65,11 @@ dependency_overrides:
     # git:
     #   url: "https://github.com/cuiatech/flut_micro_commons_core_app.git"
     #   ref: "master"
+  flut_external_shopping_monitor:
+    path: ../flut_external_shopping_monitor
+    # git:
+    #   url: "https://github.com/cuiatech/flut_external_shopping_monitor.git"
+    #   ref: "master"
 
 dev_dependencies:
   flutter_test:

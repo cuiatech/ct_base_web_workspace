@@ -137,6 +137,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.4"
+  flut_external_shopping_monitor:
+    dependency: "direct overridden"
+    description:
+      path: "../flut_external_shopping_monitor"
+      relative: true
+    source: path
+    version: "0.0.1"
   flut_micro_app_auth:
     dependency: "direct main"
     description:
