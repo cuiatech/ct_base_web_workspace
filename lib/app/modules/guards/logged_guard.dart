@@ -1,7 +1,7 @@
 // ignore_for_file: depend_on_referenced_packages
 
-import 'package:flut_micro_commons_dependencies/flut_micro_commons_dependencies.dart';
-import 'package:flut_micro_commons_shared/flut_micro_commons_shared.dart';
+import 'package:ct_micro_commons_dependencies/ct_micro_commons_dependencies.dart';
+import 'package:ct_micro_commons_shared/ct_micro_commons_shared.dart';
 
 class LoggedGuard extends RouteGuard {
   LoggedGuard() : super(redirectTo: '/auth/');

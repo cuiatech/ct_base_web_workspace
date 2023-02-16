@@ -1,6 +1,6 @@
 {
-    "name": "flut_base_web_workspace",
-    "short_name": "flut_base_web_workspace",
+    "name": "ct_base_web_workspace",
+    "short_name": "ct_base_web_workspace",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-name: flut_base_web_workspace
+name: ct_base_web_workspace
 description: A new Flutter project.
 publish_to: 'none' 
 version: 1.0.0+1
@@ -12,63 +12,63 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   localization: 2.1.0
-  flut_micro_app_auth:
-    path: ../flut_micro_app_auth
+  ct_micro_app_auth:
+    path: ../ct_micro_app_auth
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_app_auth.git"
+    #   url: "https://github.com/cuiatech/ct_micro_app_auth.git"
     #   ref: "master"
-  flut_micro_app_dashboard:
-    path: ../flut_micro_app_dashboard
+  ct_micro_app_dashboard:
+    path: ../ct_micro_app_dashboard
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_app_dashboard.git"
+    #   url: "https://github.com/cuiatech/ct_micro_app_dashboard.git"
     #   ref: "master"
-  flut_micro_app_help_center:
-    path: ../flut_micro_app_help_center
+  ct_micro_app_help_center:
+    path: ../ct_micro_app_help_center
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_app_help_center.git"
+    #   url: "https://github.com/cuiatech/ct_micro_app_help_center.git"
     #   ref: "master"
-  flut_micro_app_marketplace:
-    path: ../flut_micro_app_marketplace
+  ct_micro_app_marketplace:
+    path: ../ct_micro_app_marketplace
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_app_marketplace.git"
+    #   url: "https://github.com/cuiatech/ct_micro_app_marketplace.git"
     #   ref: "master"
   
 
 dependency_overrides:
-  flut_micro_commons_dependencies:
-    path: ../flut_micro_commons_dependencies
+  ct_micro_commons_dependencies:
+    path: ../ct_micro_commons_dependencies
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_commons_dependencies.git"
+    #   url: "https://github.com/cuiatech/ct_micro_commons_dependencies.git"
     #   ref: "master"
-  flut_micro_commons_client_https:
-    path: ../flut_micro_commons_client_https
+  ct_micro_commons_client_https:
+    path: ../ct_micro_commons_client_https
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_commons_client_https.git"
+    #   url: "https://github.com/cuiatech/ct_micro_commons_client_https.git"
     #   ref: "master"
-  flut_micro_commons_shared:
-    path: ../flut_micro_commons_shared
+  ct_micro_commons_shared:
+    path: ../ct_micro_commons_shared
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_commons_shared.git"
+    #   url: "https://github.com/cuiatech/ct_micro_commons_shared.git"
     #   ref: "master"
-  flut_micro_commons_ds:
-    path: ../flut_micro_commons_ds
+  ct_micro_commons_ds:
+    path: ../ct_micro_commons_ds
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_commons_ds.git"
+    #   url: "https://github.com/cuiatech/ct_micro_commons_ds.git"
     #   ref: "master"
-  flut_micro_commons_auth:
-    path: ../flut_micro_commons_auth
+  ct_micro_commons_auth:
+    path: ../ct_micro_commons_auth
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_commons_auth.git"
+    #   url: "https://github.com/cuiatech/ct_micro_commons_auth.git"
     #   ref: "master"
-  flut_micro_commons_core_app:
-    path: ../flut_micro_commons_core_app
+  ct_micro_commons_core_app:
+    path: ../ct_micro_commons_core_app
     # git:
-    #   url: "https://github.com/cuiatech/flut_micro_commons_core_app.git"
+    #   url: "https://github.com/cuiatech/ct_micro_commons_core_app.git"
     #   ref: "master"
-  flut_external_shopping_monitor:
-    path: ../flut_external_shopping_monitor
+  ct_external_shopping_monitor:
+    path: ../ct_external_shopping_monitor
     # git:
-    #   url: "https://github.com/cuiatech/flut_external_shopping_monitor.git"
+    #   url: "https://github.com/cuiatech/ct_external_shopping_monitor.git"
     #   ref: "master"
 
 dev_dependencies:

@@ -13,13 +13,13 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     LocalJsonLocalization.delegate.directories = [
       'assets/lang',
-      'packages/flut_micro_app_auth/assets/lang',
-      'packages/flut_micro_app_dashboard/assets/lang',
-      'packages/flut_micro_commons_auth/assets/lang',
-      'packages/flut_micro_commons_client_https/assets/lang',
-      'packages/flut_micro_commons_dependencies/assets/lang',
-      'packages/flut_micro_commons_ds/assets/lang',
-      'packages/flut_micro_commons_shared/assets/lang',
+      'packages/ct_micro_app_auth/assets/lang',
+      'packages/ct_micro_app_dashboard/assets/lang',
+      'packages/ct_micro_commons_auth/assets/lang',
+      'packages/ct_micro_commons_client_https/assets/lang',
+      'packages/ct_micro_commons_dependencies/assets/lang',
+      'packages/ct_micro_commons_ds/assets/lang',
+      'packages/ct_micro_commons_shared/assets/lang',
     ];
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
