@@ -39,7 +39,7 @@ class AppModule extends Module {
     ModuleRoute('/auth', module: AppAuthModule(), guards: [UnloggedGuard()]),
     ModuleRoute('/', module: DashboardModule(), guards: [LoggedGuard()]),
     ModuleRoute(
-      '/marketplace',
+      '/store',
       module: MarketplaceModule(),
       guards: [LoggedGuard()],
     ),
