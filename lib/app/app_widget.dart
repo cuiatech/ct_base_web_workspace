@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:localization/localization.dart';
+import 'package:ct_micro_commons_ds/ct_micro_commons_ds.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
@@ -24,7 +25,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'Cuiatech Workspace',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: CuiaTheme.web,
       routerDelegate: Modular.routerDelegate,
       routeInformationParser: Modular.routeInformationParser,
       localizationsDelegates: [

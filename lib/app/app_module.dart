@@ -1,5 +1,3 @@
-// ignore_for_file: depend_on_referenced_packages
-
 import 'package:ct_base_web_workspace/app/modules/guards/logged_guard.dart';
 import 'package:ct_micro_app_dashboard/app/dashboard_module.dart';
 import 'package:ct_micro_app_marketplace/app/marketplace_module.dart';
